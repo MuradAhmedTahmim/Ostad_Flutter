@@ -1,6 +1,6 @@
-main() {
+main() async {
   print('Started');
-  task1();
+  await task1();
   print('End');
 }
 
